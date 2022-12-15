@@ -8,6 +8,9 @@
 @import "/CSS/typography.css";
 
 :root{
+
+    /* --- COLORS --- */
+
     --color__text--one: #263139;
     --color__accent--one: #3E8C5B;
     --color__background--one: #e7ebef;
@@ -23,4 +26,36 @@
     --color__text--four: #24593A;
     --color__accent--four: #3E8C5B;
     --color__background--four: #E4F6EF;
+
+    
+    /* --- TYPOGRAPHY --- */
+
+    /* --- Backup settings ---*/
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 125%;
+
+
+    /* --- Variables ---*/
+
+    --heading__normal--font: "Inter Tight", sans-serif;
+    --heading__normal--weight: 400;
+    --heading__normal--style: normal;
+    --heading__highlight--font: "Inter Tight", sans-serif;
+    --heading__highlight--weight: 600;
+    --heading__highlight--style: normal;
+
+    --paragraph__normal--font: "Inter", sans-serif;
+    --paragraph__normal--weight: 400;
+    --paragraph__normal--style: normal;
+    --paragraph__highlight--font: "Inter", sans-serif;
+    --paragraph__highlight--weight: 600;
+    --paragraph__highlight--style: normal;
+
+    /* --- Type scale ---*/
+
+    --type__scale: 1.2;
+
+
 }

@@ -22,31 +22,6 @@ font-style: italic;
 
 */
 
-:root {
-    /* --- Backup settings ---*/
-
-    font-family: 'Inter', sans-serif;
-    font-size: 16px;
-    line-height: 125%;
-
-
-    /* --- Variables ---*/
-
-    --heading__normal--font: "Inter Tight", sans-serif;
-    --heading__normal--weight: 400;
-    --heading__normal--style: normal;
-    --heading__highlight--font: "Inter Tight", sans-serif;
-    --heading__highlight--weight: 600;
-    --heading__highlight--style: normal;
-
-    --paragraph__normal--font: "Inter", sans-serif;
-    --paragraph__normal--weight: 400;
-    --paragraph__normal--style: normal;
-    --paragraph__highlight--font: "Inter", sans-serif;
-    --paragraph__highlight--weight: 600;
-    --paragraph__highlight--style: normal;
-
-}
 
 a{
     color: var(--color__text--one);
@@ -60,7 +35,7 @@ a{
 }
 
 .typography__display-huge{
-    font-size: 5rem;
+    font-size: calc(4rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -69,7 +44,7 @@ a{
 }
 
 .typography__display{
-    font-size: 4rem;
+    font-size: calc(3.5rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -78,7 +53,7 @@ a{
 }
 
 h1{
-    font-size: 2.45rem;
+    font-size: calc(3rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -87,7 +62,7 @@ h1{
 }
 
 h2{
-    font-size: 2rem;
+    font-size: calc(2.5rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -96,7 +71,7 @@ h2{
 }
 
 h3{
-    font-size: 1.72rem;
+    font-size: calc(2rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -105,7 +80,7 @@ h3{
 }
 
 h4{
-    font-size: 1.45rem;
+    font-size: calc(1.5rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -114,7 +89,7 @@ h4{
 }
 
 h5{
-    font-size: 1.27rem;
+    font-size: calc(1rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -123,7 +98,7 @@ h5{
 }
 
 h6{
-    font-size: 0.72rem;
+    font-size: calc(.75rem * var(--type__scale));
     line-height: 125%;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -134,7 +109,7 @@ h6{
 }
 
 .typography__small-text{
-    font-size: 0.72rem;
+    font-size: calc(.75rem * var(--type__scale));
     line-height: 125%;
     margin: 0 !important;
     font-family: var(--paragraph__normal--font);
@@ -143,7 +118,7 @@ h6{
 }
 
 .typography__footnotes{
-    font-size: 0.6rem;
+    font-size: calc(.6rem * var(--type__scale));
     line-height: 125%;
     margin: 0 !important;
     font-family: var(--paragraph__normal--font);
