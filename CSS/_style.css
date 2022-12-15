@@ -1,0 +1,26 @@
+@import "/CSS/atoms.css";
+@import "/CSS/buttons.css";
+@import "/CSS/colors.css";
+@import "/CSS/layout.css";
+@import "/CSS/molecules.css";
+@import "/CSS/nav.css";
+@import "/CSS/product-page.css";
+@import "/CSS/typography.css";
+
+:root{
+    --color__text--one: #263139;
+    --color__accent--one: #3E8C5B;
+    --color__background--one: #e7ebef;
+    
+    --color__text--two: #263139;
+    --color__accent--two: #3E8C5B;
+    --color__background--two: #E4F6EF;
+  
+    --color__text--three: #e7ebef;
+    --color__accent--three: #E4F6EF;
+    --color__background--three: #31724B;
+  
+    --color__text--four: #24593A;
+    --color__accent--four: #3E8C5B;
+    --color__background--four: #E4F6EF;
+}

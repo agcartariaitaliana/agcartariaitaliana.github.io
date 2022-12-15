@@ -1,3 +1,5 @@
+@import "/CSS/nav.css";
+
 .banner__container{
     aspect-ratio: 9 / 16;
     display: grid;
@@ -85,8 +87,8 @@ lottie-player{
 }
 
 .card{
-    background-color: #ffffff;
-    color: var(--color__text--one);
+    background-color: var(--color__background--one);
+    color: var(--color__accent--two);
     display: inline-block;
     aspect-ratio: 16 / 9;
     padding: 2rem;
@@ -101,7 +103,7 @@ lottie-player{
 
 .card--secondary{
     background-color: var(--color__accent--two);
-    color: var(--color__text--one);
+    color: var(--color__accent--three);
 }
 
 .card--tertiary{

@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", init);
 function init(){
   liit__borderradius();
   liit_typography();
-  liit__colors();
 }
 
 
@@ -18,25 +17,6 @@ function generateRandom(min, max) {
   return rand;
 }
 
-function liit__colors(){
-  var r = document.querySelector(':root');
-
-  r.style.setProperty('--color__text--one', '#263139');
-  r.style.setProperty('--color__accent--one', '#3E8C5B');
-  r.style.setProperty('--color__background--one', '#e7ebef');
-  
-  r.style.setProperty('--color__text--two', '#263139');
-  r.style.setProperty('--color__accent--two', '#3E8C5B');
-  r.style.setProperty('--color__background--two', '#E4F6EF');
-
-  r.style.setProperty('--color__text--three', '#e7ebef');
-  r.style.setProperty('--color__accent--three', '#E4F6EF');
-  r.style.setProperty('--color__background--three', '#31724B');
-
-  r.style.setProperty('--color__text--four', '#24593A');
-  r.style.setProperty('--color__accent--four', '#3E8C5B');
-  r.style.setProperty('--color__background--four', '#E4F6EF');
-}
 
 // Calculates the border radius based on tov level. To set tov level <body data-tov="500">
 
