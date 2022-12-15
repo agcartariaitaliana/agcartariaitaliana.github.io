@@ -27,11 +27,11 @@
     padding: 0;
 }
 
-li{
+.product__sizes--li{
     padding-right: 1rem;
 }
 
-li + li{
+.product__sizes--li + .product__sizes--li{
     border-left: 1px solid black;
     padding-left: 1rem;
 }
