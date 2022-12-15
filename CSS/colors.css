@@ -1,3 +1,11 @@
+::selection {
+    background: var(--color__background--two);
+}
+
+::-moz-selection {
+    background: var(--color__background--two);
+}
+
 .box__primary{
     color: var(--color__text--one);
     background-color: var(--color__background--one);

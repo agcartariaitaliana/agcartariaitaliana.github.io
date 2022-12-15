@@ -28,14 +28,18 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 1921px) {
     :root{
-        font-size: calc(16px * 1.4);
+        font-size: 22px !important;
     }
 }
 
 .typography__display-huge{
-    font-size: calc(4rem * var(--type__scale));
+    font-size: calc(5rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -44,7 +48,7 @@ a{
 }
 
 .typography__display{
-    font-size: calc(3.5rem * var(--type__scale));
+    font-size: calc(4rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -62,7 +66,7 @@ h1{
 }
 
 h2{
-    font-size: calc(2.5rem * var(--type__scale));
+    font-size: calc(2rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);
@@ -71,7 +75,7 @@ h2{
 }
 
 h3{
-    font-size: calc(2rem * var(--type__scale));
+    font-size: calc(1.75rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
     font-family: var(--heading__normal--font);

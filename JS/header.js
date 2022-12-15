@@ -1,4 +1,3 @@
-// custom-elements.js
 class AppHeader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
@@ -11,4 +10,7 @@ class AppHeader extends HTMLElement {
         `
     }
 }
+
+
+
 window.customElements.define('app-header', AppHeader)

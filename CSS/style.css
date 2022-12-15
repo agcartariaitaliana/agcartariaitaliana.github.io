@@ -6,6 +6,7 @@
 @import "/CSS/nav.css";
 @import "/CSS/product-page.css";
 @import "/CSS/typography.css";
+@import "/CSS/footer.css";
 
 :root{
 
@@ -27,7 +28,7 @@
     --color__accent--four: #3E8C5B;
     --color__background--four: #E4F6EF;
 
-    
+
     /* --- TYPOGRAPHY --- */
 
     /* --- Backup settings ---*/

@@ -122,7 +122,7 @@ lottie-player{
 
 .card__big{
     grid-column: span 8;
-    aspect-ratio: 9 / 16;
+    aspect-ratio: 10 / 16;
     display: grid;
     grid-template-rows: 1fr auto;
     gap: 1rem;

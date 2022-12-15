@@ -1,0 +1,14 @@
+app-footer{
+    grid-column: span 8;
+    background-color: var(--color__background--two);
+    margin: 0 -1em -1em -1em;
+    padding: 1em;
+}
+
+@media only screen and (min-width: 768px) {
+    app-footer{
+        grid-column: span 12;
+        margin: 0 -4em -4em -4em;
+        padding: 4em;
+    }  
+}
