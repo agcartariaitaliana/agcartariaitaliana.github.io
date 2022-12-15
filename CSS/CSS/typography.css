@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://use.typekit.net/low4fck.css");
+
+
+/*
+
+--- INTER ---
+font-family: 'Inter', sans-serif;
+
+--- INTER TIGHT ---
+font-family: 'Inter Tight', sans-serif;
+
+--- MACKINAC REGULAR ---
+font-family: "p22-mackinac-pro", serif;
+font-weight: 400;
+font-style: normal;
+
+--- MACKINAC ITALIC ---
+font-family: "p22-mackinac-pro", serif;
+font-weight: 400;
+font-style: italic;
+
+*/
+
+:root {
+    /* --- Backup settings ---*/
+
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 125%;
+
+
+    /* --- Variables ---*/
+
+    --heading__normal--font: "Inter Tight", sans-serif;
+    --heading__normal--weight: 400;
+    --heading__normal--style: normal;
+    --heading__highlight--font: "Inter Tight", sans-serif;
+    --heading__highlight--weight: 600;
+    --heading__highlight--style: normal;
+
+    --paragraph__normal--font: "Inter", sans-serif;
+    --paragraph__normal--weight: 400;
+    --paragraph__normal--style: normal;
+    --paragraph__highlight--font: "Inter", sans-serif;
+    --paragraph__highlight--weight: 600;
+    --paragraph__highlight--style: normal;
+
+}
+
+a{
+    color: var(--color__text--one);
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 1921px) {
+    :root{
+        font-size: calc(16px * 1.4);
+    }
+}
+
+.typography__display-huge{
+    font-size: 5rem;
+    line-height: 115%;
+    margin: 0 !important;
+    font-family: var(--heading__normal--font);
+    font-weight: var(--heading__normal--weight);
+    font-style: var(--heading__normal--style);
+}
+
+.typography__display{
+    font-size: 4rem;
+    line-height: 115%;
+    margin: 0 !important;
+    font-family: var(--heading__normal--font);
+    font-weight: var(--heading__normal--weight);
+    font-style: var(--heading__normal--style);
+}
+
+h1{
+    font-size: 2.45rem;
+    line-height: 115%;
+    margin: 0 !important;
+    font-family: var(--heading__normal--font);
+    font-weight: var(--heading__normal--weight);
+    font-style: var(--heading__normal--style);
+}
+
+h2{
+    font-size: 2rem;
+    line-height: 115%;
+    margin: 0 !important;
+    font-family: var(--heading__normal--font);
+    font-weight: var(--heading__normal--weight);
+    font-style: var(--heading__normal--style);
+}
+
+h3{
+    font-size: 1.72rem;
+    line-height: 115%;
+    margin: 0 !important;
+    font-family: var(--heading__normal--font);
+    font-weight: var(--heading__normal--weight);
+    font-style: var(--heading__normal--style);
+}
+
+h4{
+    font-size: 1.45rem;
+    line-height: 115%;
+    margin: 0 !important;
+    font-family: var(--heading__normal--font);
+    font-weight: var(--heading__normal--weight);
+    font-style: var(--heading__normal--style);
+}
+
+h5{
+    font-size: 1.27rem;
+    line-height: 115%;
+    margin: 0 !important;
+    font-family: var(--heading__normal--font);
+    font-weight: var(--heading__normal--weight);
+    font-style: var(--heading__normal--style);
+}
+
+h6{
+    font-size: 0.72rem;
+    line-height: 125%;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 0 !important;
+    font-family: var(--paragraph__normal--font);
+    font-weight: var(--paragraph__normal--weight);
+    font-style: var(--paragraph__normal--style);
+}
+
+.typography__small-text{
+    font-size: 0.72rem;
+    line-height: 125%;
+    margin: 0 !important;
+    font-family: var(--paragraph__normal--font);
+    font-weight: var(--paragraph__normal--weight);
+    font-style: var(--paragraph__normal--style);
+}
+
+.typography__footnotes{
+    font-size: 0.6rem;
+    line-height: 125%;
+    margin: 0 !important;
+    font-family: var(--paragraph__normal--font);
+    font-weight: var(--paragraph__normal--weight);
+    font-style: var(--paragraph__normal--style);
+}
+
+p{
+    font-family: var(--paragraph__normal--font);
+    font-weight: var(--paragraph__normal--weight);
+    font-style: var(--paragraph__normal--style);
+}
+
+
+.typography__paragraph--accent{
+    font-size: inherit;
+    line-height: inherit;
+    margin: inherit;
+    font-family: var(--paragraph__highlight--font);
+    font-weight: var(--paragraph__highlight--weight);
+    font-style: var(--paragraph__highlight--style);
+}
+
+
+.typography__title--accent{
+    font-family: var(--heading__highlight--font);
+    font-weight: var(--heading__highlight--weight);
+    font-style: var(--heading__highlight--style);
+}
+
+
+* + .typography__display-huge,
+* + .typography__display,
+* + h1,
+* + h2,
+* + h3,
+* + h4,
+* + h5,
+* + h6,
+* + p,
+* + .typography__small-text,
+* + .typography__footnotes
+{
+    margin-top: 16px !important;
+}
+
+
+

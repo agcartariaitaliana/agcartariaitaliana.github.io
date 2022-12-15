@@ -1,0 +1,39 @@
+.box__primary{
+    color: var(--color__text--one);
+    background-color: var(--color__background--one);
+}
+
+.box__primary > * > .typography__title--accent,
+.box__primary > * > .typography__paragraph--accent{
+    color: var(--color__accent--one);
+}
+
+.box__secondary{
+    color: var(--color__text--two);
+    background-color: var(--color__background--two);
+}
+
+.box__secondary > * > .typography__title--accent,
+.box__secondary > * > .typography__paragraph--accent{
+    color: var(--color__accent--two);
+}
+
+.box__tertiary{
+    color: var(--color__text--three);
+    background-color: var(--color__background--three);
+}
+
+.box__tertiary > * > .typography__title--accent,
+.box__tertiary > * > .typography__paragraph--accent{
+    color: var(--color__accent--three);
+}
+
+.box__quaternary{
+    color: var(--color__text--four);
+    background-color: var(--color__background--four);
+}
+
+.box__quaternary > * > .typography__title--accent,
+.box__quaternary > * > .typography__paragraph--accent{
+    color: var(--color__accent--four);
+}

@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    margin: 16px;
+}
+
+img{
+    object-fit: cover;
+}
+
+.main__grid{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: .5rem;
+    row-gap: 2rem;
+    grid-column: span 8;
+}
+
+
+
+.box{
+    width: 100%;
+    padding: 48px;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+button{
+    margin: 32px 0 0 0;
+}
+
+/* Box type */
+
+.main__grid{
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    column-gap: 16px;
+    row-gap: 32px;
+}
+
+
+.layout__hero{
+    grid-column: 1 / 9;
+    display: flex;
+    flex-direction: column;
+}
+
+.layout__hero > img{
+    order: 1;
+}
+
+.layout__cover{
+    grid-column: 2 / 8;
+}
+
+.layout__split--right{
+    aspect-ratio: 4 / 3;
+    grid-column: 5 / 9;
+}
+
+.layout__split--left{
+    aspect-ratio: 4 / 3;
+    grid-column: 1 / 5;
+}
+
+.layout__portrait--left{
+    aspect-ratio: 1 / 1;
+    grid-column: 1 / 3;
+}
+
+.layout__portrait--center-left{
+    aspect-ratio: 1 / 1;
+    grid-column: 2 / 4;
+}
+
+.layout__portrait--center{
+    aspect-ratio: 1 / 1;
+    grid-column: 4 / 6;
+}
+
+.layout__portrait--center-right{
+    aspect-ratio: 1 / 1;
+    grid-column: 6 / 8;
+}
+
+.layout__portrait--right{
+    aspect-ratio: 1 / 1;
+    grid-column: 7 / 9;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    html{
+        margin: 64px;
+    }
+
+    .main__grid{
+        margin: 0;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        column-gap: 32px;
+        row-gap: 64px;
+        grid-column: span 12;
+    }
+    
+
+    .layout__hero{
+        grid-column: 1 / 13;
+    }
+
+    .layout__cover{
+        grid-column: 2 / 12;
+    }
+
+    .layout__split--right{
+        aspect-ratio: 4 / 3;
+        grid-column: 7 / 12;
+    }
+
+    .layout__split--left{
+        aspect-ratio: 4 / 3;
+        grid-column: 2 / 7;
+    }
+
+    .layout__portrait--left{
+        aspect-ratio: 1 / 1;
+        grid-column: 1 / 3;
+    }
+
+    .layout__portrait--center-left{
+        aspect-ratio: 1 / 1;
+        grid-column: 3 / 5;
+    }
+
+    .layout__portrait--center{
+        aspect-ratio: 1 / 1;
+        grid-column: 6 / 8;
+    }
+
+    .layout__portrait--center-right{
+        aspect-ratio: 1 / 1;
+        grid-column: 9 / 11;
+    }
+
+    .layout__portrait--right{
+        aspect-ratio: 1 / 1;
+        grid-column: 11 / 13;
+    }
+
+
+}
