@@ -1,13 +1,17 @@
 .nav__menu{
     grid-column: span 8;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr;
 }
 
 
 .nav__menu--right{
     justify-self: end;
     align-self: center;
+}
+
+.nav__menu--right > li{
+    display: inline;
 }
 
 .nav__menu > * > img{

@@ -70,40 +70,36 @@ h2{
     font-size: calc(2rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
-    font-family: var(--paragraph__normal--font);
+    font-family: var(--heading__normal--font);
     font-weight: var(--heading__normal--weight);
     font-style: var(--heading__normal--style);
-    letter-spacing: -1px;
 }
 
 h3{
     font-size: calc(1.75rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
-    font-family: var(--paragraph__normal--font);
+    font-family: var(--heading__normal--font);
     font-weight: var(--heading__normal--weight);
     font-style: var(--heading__normal--style);
-    letter-spacing: -1px;
 }
 
 h4{
     font-size: calc(1.5rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
-    font-family: var(--paragraph__normal--font);
+    font-family: var(--heading__normal--font);
     font-weight: var(--heading__normal--weight);
     font-style: var(--heading__normal--style);
-    letter-spacing: -1px;
 }
 
 h5{
     font-size: calc(1rem * var(--type__scale));
     line-height: 115%;
     margin: 0 !important;
-    font-family: var(--paragraph__normal--font);
+    font-family: var(--heading__normal--font);
     font-weight: var(--heading__normal--weight);
     font-style: var(--heading__normal--style);
-    letter-spacing: -1px;
 }
 
 h6{

@@ -10,6 +10,18 @@ img{
     object-fit: cover;
 }
 
+lottie-player{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+@media only screen and (min-width: 768px) {
+    lottie-player{
+        width: 65% !important;
+        height: 65% !important;
+    }
+}
+
 .main__grid{
     margin: 0;
     display: grid;
