@@ -29,6 +29,7 @@
 
 .product__sizes--li{
     padding-right: 1rem;
+    margin-top: .5rem;
 }
 
 .product__sizes--li + .product__sizes--li{
@@ -37,7 +38,7 @@
 }
 
 .product__sizes > ul li{
-    display: inline;
+    display: inline-flex;
 }
 
 @media only screen and (min-width: 768px) {
